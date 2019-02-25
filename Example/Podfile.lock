@@ -1,0 +1,16 @@
+PODS:
+  - IPhone-App (1.0.0)
+
+DEPENDENCIES:
+  - IPhone-App (from `../`)
+
+EXTERNAL SOURCES:
+  IPhone-App:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IPhone-App: 75126189e7e7e4251bf4b6d42306c5a03263f570
+
+PODFILE CHECKSUM: 6b5c7567019562e52a322d69f95b4564d8165ad6
+
+COCOAPODS: 1.5.3

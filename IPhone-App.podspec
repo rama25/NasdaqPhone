@@ -7,36 +7,35 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'IPhone-App'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of IPhone-App.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/faisalmlalani/IPhone-App'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'faisalmlalani' => 'faisalmlalani@gmail.com' }
-  s.source           = { :git => 'https://github.com/faisalmlalani/IPhone-App.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'IPhone-App/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'IPhone-App' => ['IPhone-App/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'IPhone-App'
+    s.version          = '1.0.0'
+    s.summary          = 'A meaningful description of IPhone-App.'
+    
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = <<-DESC
+    An extra-long meaningful description of IPhone-App media service.
+    DESC
+    
+    s.homepage         = 'https://github.com/rama25/IPhone-App'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'ramapriya' => 'ramapriya288@gmail.com' }
+    s.source           = { :git => 'https://github.com/rama25/IPhone-App.git', :tag => s.version.to_s}
+    
+    s.ios.deployment_target = '9.0'
+    
+    s.source_files = 'Classes/*.{h,m,swift}'
+    
+    # s.resource_bundles = {
+    #   'BlendnetBeta' => ['BlendnetBeta/Assets/*.png']
+    # }
+    
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    s.frameworks = 'UIKit', 'AVKit', 'AVFoundation'
+    # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,6 @@
+framework module IPhone_App {
+  umbrella header "IPhone-App-umbrella.h"
+
+  export *
+  module * { export * }
+}
