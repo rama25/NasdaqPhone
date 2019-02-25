@@ -23,6 +23,7 @@ pod 'IPhone-App'
 ## Author
 
 faisalmlalani, faisalmlalani@gmail.com
+rama25, ramapriya288@gmail.com
 
 ## License
 

@@ -21,19 +21,15 @@ Pod::Spec.new do |s|
     An extra-long meaningful description of IPhone-App media service.
     DESC
     
-    s.homepage         = 'https://github.com/rama25/IPhone-App'
+    s.homepage         = 'https://github.com/rama25/NasdaqPhone'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'ramapriya' => 'ramapriya288@gmail.com' }
-    s.source           = { :git => 'https://github.com/rama25/IPhone-App.git', :tag => s.version.to_s}
+    s.source           = { :git => 'https://github.com/rama25/NasdaqPhone.git', :tag => s.version.to_s, :commit => "d790a79aa5d9453db165541d9e583b8f1c5055fc"}
     
     s.ios.deployment_target = '9.0'
     
     s.source_files = 'Classes/*.{h,m,swift}'
-    
-    # s.resource_bundles = {
-    #   'BlendnetBeta' => ['BlendnetBeta/Assets/*.png']
-    # }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit', 'AVKit', 'AVFoundation'
